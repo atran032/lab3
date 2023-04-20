@@ -25,7 +25,7 @@ public class ArrayTests {
 
   @Test 
 	public void testReversed2() {
-    int[] input1 = { 1, 5, 2, 4, 3 };
-    assertArrayEquals(new int[]{ 3, 4, 2, 5, 1 }, ArrayExamples.reversed(input1));
+    int[] input1 = { 3, 5, 2, 4, 1 };
+    assertArrayEquals(new int[]{ 1, 4, 2, 5, 3 }, ArrayExamples.reversed(input1));
 	}
 }
